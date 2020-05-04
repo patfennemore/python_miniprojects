@@ -1,7 +1,7 @@
 
 drive_distance = input("How many kilometres will you drive? ")
 fuel_usage = input("How many litres per km does your car use? ")
-price_fuel = input("What is the current price of fuel per litre? (eg. 10 USD) ")
+price_fuel = input("What is the current price of fuel per litre? Amount and currency(eg. 10 USD) ")
 
 split_currency_amount = price_fuel.split()
 
