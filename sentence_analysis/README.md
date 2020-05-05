@@ -23,3 +23,4 @@ Lower case: 26
 Punctuation: 1
 Total chars: 28
 ```
+sentence = input("Write a sentence :")
