@@ -16,6 +16,10 @@ while count == 0:
         return number
 
 
+    if user_hand > 2:
+        print("Please enter a number between 0 - 2")
+        continue
+
     print("Your hand is: ", end='')
     get_hand(user_hand)
     print("Computer's hand is: ", end='')
@@ -35,3 +39,6 @@ while count == 0:
 
 
     determine_winner(score)
+
+    if input('Do You Want To Continue? y (yes) or n (no) ') != 'y':
+        break
